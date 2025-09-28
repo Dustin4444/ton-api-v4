@@ -415,13 +415,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fastify/cors@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "@fastify/cors@npm:7.0.0"
+"@fastify/cors@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "@fastify/cors@npm:11.1.0"
   dependencies:
-    fastify-plugin: ^3.0.0
-    vary: ^1.1.2
-  checksum: 1885eb60b6a64dc91c8ca47708b60de371982d8224e801d7ed60bf821bd045d0c99917c0cb7544dccd9ad1a3dd72368244f2ec2f58bc5fa46d10fe95ad43283a
+    fastify-plugin: ^5.0.0
+    toad-cache: ^3.7.0
+  checksum: 50445fab7f1595b41fcca42a4e9ab389de9edb76e6c555f2010d06844d39ba6d9ee909c5ef5a04714c47802f3d277c41bddaf076e87ba7242c976987b18361b1
   languageName: node
   linkType: hard
 
@@ -2111,6 +2111,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fastify-plugin@npm:^5.0.0":
+  version: 5.1.0
+  resolution: "fastify-plugin@npm:5.1.0"
+  checksum: f93735525e1217f8b7ea20823f5f625eff9c1e76cb7e0692cbeb1d9052714e056a6d62757085d48fcdf47342ae21d8f665997736b3c421b2c279150443ac0adf
+  languageName: node
+  linkType: hard
+
 "fastify@npm:^3.29.0":
   version: 3.29.5
   resolution: "fastify@npm:3.29.5"
@@ -2294,7 +2301,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -4182,7 +4189,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
   version: 1.22.4
-  resolution: "resolve@patch:resolve@npm%3A1.22.4#~builtin<compat/resolve>::version=1.22.4&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.4#~builtin<compat/resolve>::version=1.22.4&hash=07638b"
   dependencies:
     is-core-module: ^2.13.0
     path-parse: ^1.0.7
@@ -4706,11 +4713,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"toad-cache@npm:^3.7.0":
+  version: 3.7.0
+  resolution: "toad-cache@npm:3.7.0"
+  checksum: d0f2092ab2c0f3355d3537c41b13888a12996f38080e6c39907e715eb382d997ccf61baab9e8eda3f202b6c07e304728106be3631c9fe3b6c001aaf15b7bdb8f
+  languageName: node
+  linkType: hard
+
 "ton-api-v4@workspace:.":
   version: 0.0.0-use.local
   resolution: "ton-api-v4@workspace:."
   dependencies:
-    "@fastify/cors": ^7.0.0
+    "@fastify/cors": ^11.1.0
     "@fastify/websocket": ^5.0.0
     "@ton/core": ^0.56.2
     "@ton/crypto": ^3.2.0
@@ -4865,11 +4879,11 @@ __metadata:
 
 "typescript@patch:typescript@^4.4.2#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: ab417a2f398380c90a6cf5a5f74badd17866adf57f1165617d6a551f059c3ba0a3e4da0d147b3ac5681db9ac76a303c5876394b13b3de75fdd5b1eaa06181c9d
+  checksum: 2eee5c37cad4390385db5db5a8e81470e42e8f1401b0358d7390095d6f681b410f2c4a0c496c6ff9ebd775423c7785cdace7bcdad76c7bee283df3d9718c0f20
   languageName: node
   linkType: hard
 
@@ -4946,13 +4960,6 @@ __metadata:
     convert-source-map: ^1.6.0
     source-map: ^0.7.3
   checksum: 54ce92bec2727879626f623d02c8d193f0c7e919941fa373ec135189a8382265117f5316ea317a1e12a5f9c13d84d8449052a731fe3306fa4beaafbfa4cab229
-  languageName: node
-  linkType: hard
-
-"vary@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "vary@npm:1.1.2"
-  checksum: ae0123222c6df65b437669d63dfa8c36cee20a504101b2fcd97b8bf76f91259c17f9f2b4d70a1e3c6bbcee7f51b28392833adb6b2770b23b01abec84e369660b
   languageName: node
   linkType: hard
 
