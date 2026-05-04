@@ -1416,10 +1416,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bn.js@npm:5.2.0":
-  version: 5.2.0
-  resolution: "bn.js@npm:5.2.0"
-  checksum: 6117170393200f68b35a061ecbf55d01dd989302e7b3c798a3012354fa638d124f0b2f79e63f77be5556be80322a09c40339eda6413ba7468524c0b6d4b4cb7a
+"bn.js@npm:5.2.3":
+  version: 5.2.3
+  resolution: "bn.js@npm:5.2.3"
+  checksum: b024fa4ab260670ca0d99f3ffee96a09ba9662f3ae28e01f4d54072bca945724cca1fac53588892c87a909ef8bc91367c442cadc35568d55999adbc221a6f012
   languageName: node
   linkType: hard
 
@@ -4814,7 +4814,7 @@ __metadata:
     "@types/node": ^16.7.10
     "@types/ws": ^8.5.3
     axios: ^0.25.0
-    bn.js: 5.2.0
+    bn.js: 5.2.3
     buffer: ^6.0.3
     date-fns: ^2.30.0
     dotenv: ^10.0.0
